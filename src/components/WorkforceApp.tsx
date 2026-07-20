@@ -70,7 +70,7 @@ const HIRE_STATUS = {
   unclear: { label: "Незрозуміло", color: "var(--signal-deficit)" },
 };
 
-function round1(n) {
+function round1(n: number) {
   return Math.round(n * 100) / 100;
 }
 function todayStr() {
