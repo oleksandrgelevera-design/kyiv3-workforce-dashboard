@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
-
+export const dynamic = "force-dynamic";
 export default function LoginPage() {
   const router = useRouter();
   const searchParams = useSearchParams();
